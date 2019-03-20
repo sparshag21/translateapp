@@ -11,10 +11,7 @@ const Form = ({onInputChange,onButtonSubmit,input,translated}) => {
 					<button style={{opacity:0.9}} className='w-30 grow  pa1 f4 link ph3 pv2 dib white bg-light-purple' 
 					onClick={onButtonSubmit}>Translate to Klingon</button>
 					<textarea className="center br3 pa2 w-70 i " value={translated}></textarea>
-				</div>{/*
-				{<div>
-					<a href=' http://translate.yandex.com/' className='center grow link pa2'>Powered by Yandex.Translate</a>
-				</div>}*/}
+				</div>
 			</div>
 		</div>
 		);
